@@ -1,0 +1,16 @@
+[package]
+name = "calculator-rs"
+version = "0.1.0"
+authors = ["bram <contact@bramvdb.com>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+lrpar = "0.5.1"
+lrlex = "0.5.1"
+cfgrammar = "0.5.1"
+
+[build-dependencies]
+lrpar = "0.5.1"
+lrlex = "0.5.1"
+cfgrammar = "0.5.1"
